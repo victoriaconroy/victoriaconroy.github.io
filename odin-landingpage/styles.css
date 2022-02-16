@@ -1,0 +1,230 @@
+*{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-area1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+    max-width: 5em;
+    max-height: 5em;
+    justify-items: flex-end;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid white; 
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.header-link{
+    display:flex;
+    justify-items: flex-end;
+    justify-content: flex-end;
+    font-size: 11px;
+    color: #E5E7EB;
+    height: 5em;
+    width: 30em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+    padding: 15px;
+
+}
+
+.header-area2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    background-color: #1F2937;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    margin: 100px;
+}
+
+.header-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    border: 2px solid rgb(166, 173, 194); 
+    border-radius: 10%;
+    margin: 100px;
+/*     padding: 15px solid gray; */
+    height: 200px;
+}
+
+.header-button{
+    background-color: #5485e0;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+h2{
+    text-align: center;
+}
+.random-area{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.random-image{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid rgb(166, 173, 194);
+    border-radius: 10%;
+}
+
+.random-subtext-area{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.random-subtext-class{
+    display: flex;
+    font-size: 10px;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10%;
+}
+.gray-area{
+    display: flex;
+    flex-direction: column;
+    border: 100px;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.gray-text{
+    display:flex;
+    align-items: flex-start;
+    font-size: 24px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.siggy {
+    display:flex;
+    justify-content: flex-end;
+/*     justify-content: flex-end; */
+    font-size: 20px;
+    font-style: bold;
+    color: #1F2937;
+}
+
+.call-to-action-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.call-to-action-text{
+    display: flex;
+    flex-direction:column;
+/*     flex-wrap: wrap; */
+    align-items: flex-start;
+    justify-items: flex-start;
+    margin: 25px;
+}
+.sign-up-button{
+    display:flex;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: center;
+    margin: 25px;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+    background-color: #5485e0;
+    border: 1px solid white;
+    size: auto;
+    border-radius: 4px;
+}
+
+.footer-area{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: #1F2937;
+    color: white;
+    font-size: 11px;
+}
+
+
+/* .header-area2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    background-color: #1F2937;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    margin: 100px;
+}
+
+.header-image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 200px;
+    margin: 2em;
+    padding: 25px;
+    height: 200px;
+}
+
+.header-button{
+    background-color: #5485e0;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 100px;
+    border-radius: 4px;
+} */
